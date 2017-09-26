@@ -1,0 +1,35 @@
+{
+  "name": "aritgeo",
+  "version": "1.0.0",
+  "description": "write a function called aritGeo that takes on argument, an array. You are required to check if the array passes as an argument is arithmetic, geometric, neither arithmetic nor geometric in progression or if the array is empty",
+  "main": "source/aritgeo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olaide-EO/aritGeo.git"
+  },
+  "keywords": [
+    "Arithmetic",
+    "Geometric",
+    "Progression"
+  ],
+  "author": "Ebenezer Oladipo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olaide-EO/aritGeo/issues"
+  },
+  "homepage": "https://github.com/Olaide-EO/aritGeo#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
